@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:schoolapp/core/constants.dart';
-import 'package:schoolapp/features/dashboard/widgets/custom_container.dart';
-import 'package:schoolapp/features/dashboard/widgets/dashboard_details.dart';
+
+import '../../core/constants.dart';
+import 'widgets/custom_container.dart';
+import 'widgets/dashboard_details.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
@@ -21,6 +22,7 @@ class Dashboard extends StatelessWidget {
           child: DashboardDetails(),
         ),
         Positioned(
+          
           top: MediaQuery.of(context).size.height * 0.27,
           child: Row(
             children: [
