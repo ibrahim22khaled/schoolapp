@@ -7,14 +7,12 @@ class DashboardDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: [
-         StudentLabel(),
-         GridviewCustom()
-      
-        ],
-      ),
+    return Column(
+      children: [
+       StudentLabel(),
+       GridviewCustom()
+    
+      ],
     );
  
   }
