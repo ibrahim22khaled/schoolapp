@@ -23,7 +23,7 @@ class Dashboard extends StatelessWidget {
         ),
         Positioned(
           
-          top: MediaQuery.of(context).size.height * 0.27,
+          top: MediaQuery.of(context).size.height * 0.23,
           child: Row(
             children: [
               CustomContainer(
